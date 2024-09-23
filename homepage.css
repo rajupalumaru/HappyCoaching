@@ -10,6 +10,12 @@
 
 }
 
+.menu-icon {
+    display: none;
+}
+
+
+
 .navbarLeft {
     display: flex;
     justify-content: center;
@@ -466,4 +472,60 @@ img:nth-child(2) {
 .ctaImage {
     width: 600px;
     height: 480px;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    /* Styles for mobile devices */
+    .navbarright {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 17px;
+        margin-right: 50px;
+    }
+}
+
+/* Large Smartphones */
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Styles for large smartphones */
+    .navbarright {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 17px;
+        margin-right: 50px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Styles for tablets */
+    .navbarright {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-top: 17px;
+        margin-right: 50px;
+    }
+}
+
+/* Laptop and Small Desktop Styles */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Styles for laptops and small desktops */
+
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1441px) {
+    /* Styles for large desktops */
+
 }
