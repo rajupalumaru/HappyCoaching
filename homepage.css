@@ -63,6 +63,10 @@
     top: 180px;
 }
 
+.vectorImage1 {
+    display: none;
+}
+
 .heroPagecontent {
     position: absolute;
     top: 200px;
@@ -71,6 +75,10 @@
     align-items: center;
     width: 100%;
 
+}
+
+.heroPagecontent1 {
+    display: none;
 }
 
 .heroPageRight {
@@ -145,6 +153,12 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
+.intro33 {
+    display: none;
+}
+.intro34 {
+    display: none;
 }
 
 .introLeft h1 {
@@ -502,6 +516,144 @@
         margin-top: 17px;
         margin-right: 50px;
     }
+
+    .vectorImage {
+        display: none;
+    }
+
+    .vectorImage1 {
+        display: block;
+        width: 100px;
+        height: 17px;
+        position: absolute;
+        left: 71px;
+        top: 93px;
+    }
+
+    .heroPagecontent {
+        display: none;
+    }
+
+    .heroPagecontent1 {
+        display: block;
+        position: absolute;
+        top: 150px;
+        width: 100%;
+        
+    }
+
+    .heropageLeft1 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .provenprgrh1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .heropageLeft1 h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .discriptionprgrh1 {
+        font-size: 14px;
+        font-weight: 400;
+        width: 349px;
+        margin-left: 9px;
+    }
+
+    .heropageLeft1 button {
+        padding: 9px 16px;
+        background-color: #20AD96;
+        border-radius: 10px;
+        color: white;
+        border: none;
+    }
+
+    .heroPageRight1 {
+        width: 460px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        /* left: 260px; */
+        top: 100px;
+    }
+
+    .heroImg1 img {
+        width: 250px;
+        height: 220px;
+    }
+    .targetimage1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        width: 211px;
+        position: absolute;
+        top: -42px;
+        left: 3px;
+    }
+
+    .targetDiscription1 h1 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .intro1 {
+        display: none;
+    }
+    .intro2 {
+        display: none;
+    }
+    .intro33 {
+        display: block;
+    }
+    .introLeft1 h1 {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .introRight1 p {
+        font-size: 14px;
+        font-weight: 400;
+       text-align: center;
+    
+    }
+    .intro34 {
+        display: block;
+    }
+    .card1 {
+        padding: 10px;
+    }
+    
+    .card1 img {
+        width: 72px;
+        height: 72px;
+    }
+    .card1Imagee {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card1 h1 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    
+    }
+    
+    .card1 p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
 }
 
 /* Large Smartphones */
@@ -516,6 +668,93 @@
         display: block;
         margin-top: 17px;
         margin-right: 50px;
+    }
+
+    .vectorImage {
+        display: none;
+    }
+
+    .vectorImage1 {
+        display: block;
+        width: 100px;
+        height: 17px;
+        position: absolute;
+        left: 71px;
+        top: 93px;
+    }
+
+    .heroPagecontent {
+        display: none;
+    }
+
+    .heroPagecontent1 {
+        display: block;
+        position: absolute;
+        top: 150px;
+        width: 100%;
+        height: 62vh;
+    }
+
+    .heropageLeft1 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .provenprgrh1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .heropageLeft1 h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .discriptionprgrh1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .heropageLeft1 button {
+        padding: 9px 16px;
+        background-color: #20AD96;
+        border-radius: 10px;
+        color: white;
+        border: none;
+    }
+
+    .heroPageRight1 {
+        width: 460px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        /* left: 260px; */
+        top: 100px;
+    }
+
+    .heroImg1 img {
+        width: 250px;
+        height: 220px;
+    }
+
+    .targetimage1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        width: 250px;
+        position: absolute;
+        top: -42px;
+        left: -113px;
+    }
+
+    .targetDiscription1 h1 {
+        font-size: 16px;
+        font-weight: 800;
     }
 }
 
@@ -532,6 +771,92 @@
         margin-top: 17px;
         margin-right: 50px;
     }
+
+    .vectorImage {
+        display: none;
+    }
+
+    .vectorImage1 {
+        display: block;
+        width: 100px;
+        height: 17px;
+        position: absolute;
+        left: 71px;
+        top: 93px;
+    }
+
+    .heroPagecontent {
+        display: none;
+    }
+
+    .heroPagecontent1 {
+        display: block;
+        position: absolute;
+        top: 150px;
+    }
+
+    .heropageLeft1 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .provenprgrh1 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .heropageLeft1 h1 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .discriptionprgrh1 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .heropageLeft1 button {
+        padding: 9px 16px;
+        background-color: #20AD96;
+        border-radius: 10px;
+        color: white;
+        border: none;
+    }
+
+    .heroPageRight1 {
+        width: 460px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        /* left: 260px; */
+        top: 100px;
+    }
+
+    .heroImg1 img {
+        width: 250px;
+        height: 220px;
+    }
+
+    .targetimage1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+        width: 250px;
+        position: absolute;
+        top: -42px;
+        left: -113px;
+    }
+
+    .targetDiscription1 h1 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+
 }
 
 /* Laptop and Small Desktop Styles */
