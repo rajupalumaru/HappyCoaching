@@ -359,7 +359,6 @@
     text-align: center;
     font-size: 48px;
     font-weight: 800;
-    width: 50%;
     margin: 0 auto;
 }
 
@@ -475,9 +474,9 @@
     border-radius: 15px;
 }
 
-.ctaContent {
+/* .ctaContent {
     width: 500px;
-}
+} */
 
 .ctaContent button {
     width: 250px;
@@ -706,6 +705,78 @@
 
     .reviewsPage1 {
         display: block;
+    }
+    .blogCard {
+        display: block;
+    }
+    .blogsPageHeader {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+        margin: 0 auto;
+    }
+    .blogCard1 {
+        width: 339px;
+        height: 370px;
+        border: 0.1px solid #333;
+        margin: 15px;
+    }
+    .blogCard1 img {
+        width: 340px;
+    }
+    .freeGuide {
+        display: block;
+    }
+    .freeguideContent {
+        width: 359px;
+        text-align: center;
+        margin: 15px 5px;
+    }
+    .freeguideImage {
+        margin-top: 80px;
+    }
+    .freeguideImageContainer img {
+        width: 300px;
+    }
+    .freeimageContainer {
+        right: 33px;
+    }
+    .ctaContainer {
+        display: block;
+        margin: 0;
+    }
+    .ctaContent {
+        margin-top: 80px;
+        text-align: center;
+    } 
+    .ctaImage img {
+        width: 320px;
+    }
+    .footerContainer {
+        display: block;
+    }
+    .section2Conatiner1 {
+        display: block;
+    }
+    .secHeadCard1 {
+        text-align: center;
+    }
+    .containerRight {
+        text-align: center;
+    }
+    .hapcoachimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hapcoachimg img {
+        margin-top: 56px;
+    }
+    .secHeadCard2 {
+        text-align: center;
+    }
+    .containerRight button {
+        margin-top: 10px;
     }
 }
 
