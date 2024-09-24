@@ -154,9 +154,11 @@
     width: 100%;
     align-items: center;
 }
+
 .intro33 {
     display: none;
 }
+
 .intro34 {
     display: none;
 }
@@ -230,16 +232,7 @@
     padding: 20px 30px;
 }
 
-.reviesCard img:nth-child(2) {
-    width: 116px;
-    height: 20px;
-    gap: 4px;
-}
 
-.reviesCard img:nth-child(1) {
-    width: 69px;
-    height: 70px;
-}
 
 .reviesCard h1 {
     font-size: 24px;
@@ -539,7 +532,7 @@
         position: absolute;
         top: 150px;
         width: 100%;
-        
+
     }
 
     .heropageLeft1 {
@@ -588,6 +581,7 @@
         width: 250px;
         height: 220px;
     }
+
     .targetimage1 {
         display: flex;
         justify-content: center;
@@ -604,55 +598,114 @@
         font-size: 16px;
         font-weight: 800;
     }
+
     .intro1 {
         display: none;
     }
+
     .intro2 {
         display: none;
     }
+
     .intro33 {
         display: block;
     }
+
     .introLeft1 h1 {
         font-size: 28px;
         font-weight: 800;
         text-align: center;
     }
-    
+
     .introRight1 p {
         font-size: 14px;
         font-weight: 400;
-       text-align: center;
-    
+        text-align: center;
+
     }
+
     .intro34 {
         display: block;
     }
+
     .card1 {
         padding: 10px;
     }
-    
+
     .card1 img {
         width: 72px;
         height: 72px;
     }
+
     .card1Imagee {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .card1 h1 {
         font-size: 24px;
         font-weight: 700;
         text-align: center;
-    
+
     }
-    
+
     .card1 p {
         font-size: 16px;
         font-weight: 400;
         text-align: center;
+    }
+
+    .reviewPageHeading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviewsPage h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .reviesCard {
+        background-color: #fff;
+        margin: 10px;
+        padding: 20px 30px;
+    }
+
+    .reviewsimg {
+        display: flex;
+        width: 116px;
+        height: 20px;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        margin: 23px auto;
+    }
+
+    .reviewsimg1 {
+        display: flex;
+        width: 69px;
+        height: 26px;
+        margin: 22px auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviesCard h1 {
+        font-size: 24px;
+        font-weight: 700px;
+        text-align: center;
+    }
+
+    .reviesCard p {
+        font-size: 24px;
+        font-weight: 400px;
+        text-align: center;
+    }
+
+    .reviewsPage1 {
+        display: block;
     }
 }
 
